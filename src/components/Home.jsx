@@ -432,94 +432,47 @@ export default function Home() {
           </div>
 
           {/* Featured Product Items Grid (Exact IntechControl Card Layout) */}
-          <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <h3 style={{ fontSize: '24px', fontWeight: '700', color: '#0f172a' }}>
+          <div className="featured-section-title-row">
+            <h3 className="featured-section-heading">
               Featured Flow Measurement Systems
             </h3>
-            <Link to="/products" style={{ color: '#ed1c24', fontWeight: '700', textDecoration: 'none', fontSize: '14px' }}>
+            <Link to="/products" className="featured-section-all-link">
               View Complete Catalog (25+ Models) →
             </Link>
           </div>
 
-          <div 
-            style={{ 
-              display: 'grid', 
-              gridTemplateColumns: 'repeat(auto-fit, minmax(520px, 1fr))', 
-              gap: '24px 32px' 
-            }}
-          >
+          <div className="product-catalog-grid">
             {featuredProducts.map((p) => (
-              <div 
-                key={p.id} 
-                style={{
-                  backgroundColor: '#ffffff',
-                  display: 'flex',
-                  flexDirection: 'row',
-                  alignItems: 'stretch',
-                  gap: '20px',
-                  padding: '20px',
-                  border: '1px solid #e5e7eb',
-                  borderRadius: '6px',
-                  boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
-                }}
-              >
-                <div 
-                  style={{ 
-                    flex: '0 0 180px', 
-                    height: '180px', 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    justifyContent: 'center',
-                    border: '1px solid #e2e8f0',
-                    borderRadius: '4px',
-                    padding: '8px'
-                  }}
-                >
-                  <img src={p.image} alt={p.name} style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }} />
+              <div key={p.id} className="product-card-intech">
+                <div className="product-img-box">
+                  <img src={p.image} alt={p.name} loading="lazy" />
                 </div>
 
-                <div style={{ flex: '1', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div className="product-info-box">
                   <div>
-                    <span style={{ fontSize: '11px', fontWeight: '700', color: '#ed1c24', textTransform: 'uppercase', letterSpacing: '0.8px', display: 'block', marginBottom: '4px' }}>
+                    <span className="product-brand-tag">
                       {p.category}
                     </span>
-                    <h4 style={{ fontSize: '17px', color: '#111827', fontWeight: '700', margin: '0 0 8px 0' }}>
+                    <h4 className="product-model-name">
                       {p.name}
                     </h4>
-                    <p style={{ fontSize: '13px', color: '#4b5563', lineHeight: '1.5', margin: '0 0 14px 0' }}>
+                    <p className="product-model-desc">
                       {p.desc}
                     </p>
                   </div>
 
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <div className="product-card-actions">
                     <a 
                       href={p.pdf} 
                       target="_blank" 
                       rel="noopener noreferrer" 
-                      style={{
-                        padding: '7px 20px',
-                        backgroundColor: '#e5e7eb',
-                        color: '#1f2937',
-                        textDecoration: 'none',
-                        borderRadius: '4px',
-                        fontSize: '13px',
-                        fontWeight: '600'
-                      }}
+                      className="btn-product-datasheet"
                     >
                       More info
                     </a>
                     <button
                       onClick={() => scrollToInquiry()}
-                      style={{
-                        padding: '7px 18px',
-                        backgroundColor: '#fee2e2',
-                        color: '#dc2626',
-                        border: 'none',
-                        borderRadius: '4px',
-                        fontSize: '13px',
-                        fontWeight: '600',
-                        cursor: 'pointer'
-                      }}
+                      className="btn-product-inquiry"
                     >
                       Inquiry
                     </button>
