@@ -1,0 +1,197 @@
+[
+  {
+    "category": "Ultrasonic measurement of liquid flow",
+    "items": [
+      {
+        "id": "pt900",
+        "name": "Panametrics TransPort PT900",
+        "description": "Portable hand-held ultrasonic flowmeter for liquids",
+        "image": "/images/1.jpg",
+        "pdf": "/pdfs/1.pdf"
+      },
+      {
+        "id": "at600",
+        "name": "Panametrics AquaTrans AT600",
+        "description": "Affordable ultrasonic flowmeter for liquids",
+        "image": "/images/2.jpg",
+        "pdf": "/pdfs/2.pdf"
+      },
+      {
+        "id": "at620",
+        "name": "Panametrics AquaTrans AT620",
+        "description": "Clamp-on ultrasonic flowmeter for liquids with dual-path measurement for two independent pipes or two measurements on a single pipe",
+        "image": "/images/3.jpg",
+        "pdf": "/pdfs/3.pdf"
+      },
+      {
+        "id": "df868",
+        "name": "Panametrics DigitalFlow™ DF868",
+        "description": "Process flowmeter for liquids",
+        "image": "/images/4.jpg",
+        "pdf": "/pdfs/4.pdf"
+      },
+      {
+        "id": "panaflow-lc",
+        "name": "Panametrics PanaFlow LC",
+        "description": "Attached process flowmeter for liquids designed for use in an environment with a risk of explosion",
+        "image": "/images/5.jpg",
+        "pdf": "/pdfs/5.pdf"
+      },
+      {
+        "id": "panaflow-z3",
+        "name": "Panametrics PanaFlow Z3",
+        "description": "Process ultrasonic flowmeter for liquids with three measuring paths",
+        "image": "/images/6.jpg",
+        "pdf": "/pdfs/6.pdf"
+      },
+      {
+        "id": "panaflow-lz",
+        "name": "Panametrics PanaFlow LZ",
+        "description": "Affordable process flowmeter for liquids with optional configuration",
+        "image": "/images/7.jpg",
+        "pdf": "/pdfs/7.pdf"
+      },
+      {
+        "id": "panaflow-ht",
+        "name": "Panametrics PanaFlow HT",
+        "description": "Process flowmeter for liquids with extreme temperatures with its own SIL certification",
+        "image": "/images/8.jpg",
+        "pdf": "/pdfs/8.pdf"
+      },
+      {
+        "id": "liquid-model-9",
+        "name": "Panametrics Liquid Model 9",
+        "description": "Advanced ultrasonic liquid flow measurement device",
+        "image": "/images/9.jpg",
+        "pdf": "/pdfs/9.pdf"
+      },
+      {
+        "id": "liquid-model-10",
+        "name": "Panametrics Liquid Model 10",
+        "description": "High-precision liquid flow measurement solution",
+        "image": "/images/10.jpg",
+        "pdf": "/pdfs/10.pdf"
+      },
+      {
+        "id": "liquid-model-11",
+        "name": "Panametrics Liquid Model 11",
+        "description": "Specialized liquid flow measurement system for industrial applications",
+        "image": "/images/11.jpg",
+        "pdf": "/pdfs/11.pdf"
+      }
+    ]
+  },
+  {
+    "category": "Ultrasonic gas flow measurement",
+    "items": [
+      {
+        "id": "pt878gc",
+        "name": "Panametrics TransPort PT878GC",
+        "description": "Portable attached ultrasonic flowmeter for gases and steam",
+        "image": "/images/12.jpg",
+        "pdf": "/pdfs/12.pdf"
+      },
+      {
+        "id": "gc868",
+        "name": "Panametrics DigitalFlow™ GC868",
+        "description": "Attached ultrasonic flowmeter for gases",
+        "image": "/images/13.jpg",
+        "pdf": "/pdfs/13.pdf"
+      },
+      {
+        "id": "ctf878",
+        "name": "Panametrics DigitalFlow™ CTF878",
+        "description": "Attached ultrasonic flowmeter for gases with the possibility of measuring at very low pressures",
+        "image": "/images/14.jpg",
+        "pdf": "/pdfs/14.pdf"
+      },
+      {
+        "id": "panaflow-z1g-z2g",
+        "name": "Panametrics PanaFlow Z1G / Z2G",
+        "description": "A line of process ultrasonic flowmeters for gas volume flow measurement",
+        "image": "/images/15.jpg",
+        "pdf": "/pdfs/15.pdf"
+      },
+      {
+        "id": "gm868",
+        "name": "Panametrics DigitalFlow™ GM868",
+        "description": "Process ultrasonic flowmeter for gases with optional configuration",
+        "image": "/images/16.jpg",
+        "pdf": "/pdfs/16.pdf"
+      },
+      {
+        "id": "xgm868i",
+        "name": "Panametrics DigitalFlow™ XGM868i",
+        "description": "Process ultrasonic flowmeter for gases with optional configuration in Ex version",
+        "image": "/images/17.jpg",
+        "pdf": "/pdfs/17.pdf"
+      },
+      {
+        "id": "gf868",
+        "name": "Panametrics DigitalFlow™ GF868",
+        "description": "Ultrasonic flow meter for measuring the flow of flare gases \"FLARE\"",
+        "image": "/images/18.jpg",
+        "pdf": "/pdfs/18.pdf"
+      },
+      {
+        "id": "xgf868",
+        "name": "Panametrics DigitalFlow™ XGF868",
+        "description": "Ultrasonic flowmeter for measuring the flow of flare gases \"FLARE\" in Ex version",
+        "image": "/images/19.jpg",
+        "pdf": "/pdfs/19.pdf"
+      },
+      {
+        "id": "xgf1100",
+        "name": "Panametrics PanaFlare XGF1100",
+        "description": "The most advanced ultrasonic flow transmitter for flare gas measurement",
+        "image": "/images/20.jpg",
+        "pdf": "/pdfs/20.pdf"
+      },
+      {
+        "id": "flare-iq",
+        "name": "Panametrics flare.iQ",
+        "description": "System for advanced control of the combustion process on field burners",
+        "image": "/images/21.jpg",
+        "pdf": "/pdfs/21.pdf"
+      }
+    ]
+  },
+  {
+    "category": "Ultrasonic measurement of steam flow",
+    "items": [
+      {
+        "id": "gs868",
+        "name": "Panametrics DigitalFlow™ GS868",
+        "description": "Ultrasonic flow meter for steam flow measurement",
+        "image": "/images/22.jpg",
+        "pdf": "/pdfs/22.pdf"
+      },
+      {
+        "id": "xgs868",
+        "name": "Panametrics DigitalFlow™ XGS868",
+        "description": "Ultrasonic flow meter for steam flow measurement in Ex version",
+        "image": "/images/23.jpg",
+        "pdf": "/pdfs/23.pdf"
+      }
+    ]
+  },
+  {
+    "category": "VORTEX – Vortex flowmeters",
+    "items": [
+      {
+        "id": "panaflow-mv84",
+        "name": "Panametrics PanaFlow MV84",
+        "description": "Vortex flowmeter for liquids and gases with direct measurement of temperature and pressure \"True Multivariable\"",
+        "image": "/images/24.jpg",
+        "pdf": "/pdfs/24.pdf"
+      },
+      {
+        "id": "panaflow-mv82",
+        "name": "Panametrics PanaFlow MV82",
+        "description": "Plug-in vortex flowmeter for liquids and gases with direct measurement of temperature and pressure \"True Multivariable\"",
+        "image": "/images/25.jpg",
+        "pdf": "/pdfs/25.pdf"
+      }
+    ]
+  }
+]
